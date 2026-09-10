@@ -5,6 +5,6 @@
 <%=
   url = "i18n/#{current_language}.js"
   file_path = File.join(Redmine::Plugin.public_directory, 'redmine__select2', 'javascripts', url)
-  javascript_include_tag url, plugin: 'redmine__select2' if File.exists?(file_path)
+  javascript_include_tag url, plugin: 'redmine__select2' if File.exist?(file_path)
 %>
 <%= javascript_tag 'window.jql = jQuery.noConflict(true);' %>
