@@ -7,7 +7,7 @@ By using noConflict() we do not replace "old" jquery version but only add new on
 
 ## Compatibility
 
-This plugin version is compatible only with Redmine 3.x and later.
+This plugin version is compatible only with Redmine 5.1 and later.
 
 ## Installation
 
